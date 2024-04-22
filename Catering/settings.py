@@ -90,13 +90,11 @@ WSGI_APPLICATION = 'Catering.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'catering',
-        'USER': 'lokesh',
-        'PASSWORD': 'lokesh161',
-        'HOST': 'localhost',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 
 
 # Password validation
