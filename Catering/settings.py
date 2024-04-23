@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-5$qodey(7lir&jd+au6$als=_^0)1j1pr(4b#yna05zv4#)9m=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -49,6 +49,7 @@ INSTALLED_APPS = [
 
 CORS_ALLOWED_ORIGINS = [
     "https://saiaksharaiyafoods.netlify.app",
+    "null",
 ]
 
 
